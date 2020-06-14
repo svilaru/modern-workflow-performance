@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link href="assets/styles/main.scss" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modern Workflow</title>
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <!-- <script src="assets/js/modernizr/modernizr.js"></script> -->
+    <script src="assets/js/picturefill.min.js" async></script>
+  </head>
+  <body>
+    <header class="c-header">
+      <nav class="o-container c-main-menu">
+        <div class="c-main-menu__brand">
+         <!--  <a href="index.html"><img src="assets/img/logo-modern-workflow.png" width="80px"></a>-->
+          <a href="index.html">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source type="image/svg+xml" srcset="/assets/img/logo.svg">
+                <!--[if IE 9]></video><![endif]-->
+              <img src="/assets/img/logo-1x.png" srcset="/assets/img/logo-2x.png 2x" alt="Logo Modern Workflow">
+            </picture>
+          </a>
+        </div>       
+        <div class="c-main-menu__hamburguer"><span class="fas fa-bars" aria-hidden="true" title="Icono del menú de navegación"></span></div>
+        
+        <ul class="c-main-menu__list">
+          <li><a class="c-main-menu__list--item c-main-menu__list--item--active" href="./index.html">Inicio</a></li>
+          <li>
+            <a class="c-main-menu__list--item u-transition-ColorBorder u-transition-linear u-transition-duration-02" href="./module-bundlers.html">Module Bundlers</a>
+          </li>
+          <li>
+            <a class="c-main-menu__list--item u-transition-ColorBorder u-transition-linear u-transition-duration-02" href="./preprocessors.html">Preprocesadores</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="o-container">
+      <h1>Flujo de Desarrollo Moderno para Desarrolladores</h1>
+      <section>
+        <h2>Actualidad</h2>
+        <p>
+          Los navegadores pueden procesar y ejecutar
+          <abbr title="Hypertext Markup Language">HTML</abbr>,
+          <abbr title="Cascading Style Sheets">CSS</abbr> y JavaScript. Al final, todo el código
+          debe ser convertido en alguno de estos formatos para que los navegadores puedan
+          interpretarlos.
+        </p>
+      </div>
+      <div class="c-background c-background--item1"></div>
+
+        <div class="o-container">
+        <p>
+          Las principales herramientas que los desarrolladores pueden incorporar a su entorno de
+          trabajo para ayudar a un desarrollo más eficiente son
+          <a href="./module-bundlers.html"><span lang="en">module bundlers</span></a
+          >, transpiladores, compiladores, <a href="./preprocessors.html">preprocesadores</a>...
+        </p>
+
+        <blockquote>
+          Al desarrollar de una manera controlada con herramientas modernas, estás comunicando tu
+          trabajo con el futuro.
+        </blockquote>
+      </section>
+
+      <section>
+        <h2>Términos y etiquetas</h2>
+        <p><span class="c-tags">Abstracción</span> <span class="c-tags">Mantenimiento</span> <span class="c-tags">Escalabilidad</span> <span class="c-tags">Modularidad</span> <span class="c-tags">Reutilización</span> <span class="c-tags">Eficiencia</span></p>
+      </section>
+      <section class="u-top-margin-5">
+        <h2>Enlaces de interés</h2>
+        <cite
+          ><a 
+            href="https://www.freecodecamp.org/news/making-sense-of-front-end-build-tools-3a1b3a87043b/"
+            >https://www.freecodecamp.org/news/making-sense-of-front-end-build-tools-3a1b3a87043b/</a
+          ></cite
+        >
+      </section>
+      </div>
+    </main>
+    <footer class="o-container-fluid c-footer u-text-center">
+     <!-- <div class="c-background c-background--item1">
+          <div class="demo">
+            text
+          </div>
+
+      </div>-->
+      <div class="c-footer__brand u-top-margin-2 u-bottom-margin-1">
+      <a href="index.html"><img src="assets/img/logo-modern-workflow.png" alt="Logo Modern Workflow"></a>
+     </div>
+      <p class="u-bottom-margin-0">&copy; All rights reserved</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

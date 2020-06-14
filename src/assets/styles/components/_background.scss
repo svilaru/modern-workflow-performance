@@ -1,0 +1,79 @@
+.c-background {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+.c-background--item1 {
+  background-image: url('/assets/img/abstract-sm-576.jpg');
+}
+
+.c-background--item2 {
+  background-image: url('/assets/img/abstract2-sm-576.jpg');
+}
+.c-background--item3 {
+  background-image: url('/assets/img/abstract3-sm-576.jpg');
+}
+
+@media (min-width: 576px) {
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-m-768.jpg');
+  }
+  .c-background--item2 {
+    background-image: url('/assets/img/abstract2-m-768.jpg');
+  }
+  .c-background--item3 {
+    background-image: url('/assets/img/abstract3-m-768.jpg');
+  }
+}
+
+@media (min-width: 768px) {
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-ml-992.jpg');
+  }
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-ml-992.webp');
+  }
+  .c-background--item2 {
+    background-image: url('/assets/img/abstract2-ml-992.jpg');
+  }
+  .c-background--item3 {
+    background-image: url('/assets/img/abstract3-ml-992.jpg');
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-l-1200.jpg');
+  }
+  .c-background--item2 {
+    background-image: url('/assets/img/abstract2-l-1200.jpg');
+  }
+  .c-background--item3 {
+    background-image: url('/assets/img/abstract3-l-1200.jpg');
+  }
+}
+
+@media (min-width: 1600px) {
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-xl-1600.jpg');
+  }
+  .c-background--item2 {
+    background-image: url('/assets/img/abstract2-xl-1600.jpg');
+  }
+  .c-background--item3 {
+    background-image: url('/assets/img/abstract3-xl-1600.jpg');
+  }
+}
+
+@media (min-width: 1920px) {
+  .c-background--item1 {
+    background-image: url('/assets/img/abstract-xxl-1920.jpg');
+  }
+  .c-background--item2 {
+    background-image: url('/assets/img/abstract2-xxl-1920.jpg');
+  }
+  .c-background--item3 {
+    background-image: url('/assets/img/abstract3-xxl-1920.jpg');
+  }
+}
