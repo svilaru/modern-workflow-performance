@@ -13,7 +13,7 @@
     "dev": "npm-run-all clean parcel:dev",
     "modernizr": "modernizr -c modernizr-config.json -d src/assets/js/modernizr -u",
     "build": "npm-run-all clean parcel:build purge",
-    "purge": "purgecss --css dist/*.css --content dist/*.html, dist/*.js  --out dist/"
+    "purge": "purgecss --css dist/*.css --content dist/*.html dist/*js  --out dist/"
   },
   "keywords": [],
   "author": "Sebastián Vila Ruano",

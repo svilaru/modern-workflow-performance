@@ -4,9 +4,9 @@ module.exports = {
   plugins: [
     require('autoprefixer')
     // purgecss({
-    //  content: ['./**/*.html'],
-    //  css: ['assets/styles/main.scss'],
-    //  fontFace: true
-    // }) */
+    //   content: ['./**/*.html'],
+    //   css: ['src/assets/styles/*.scss'],
+    //   fontFace: true
+    // })
   ]
 };
